@@ -7,7 +7,7 @@ networks:
 services:
   api:
     build:
-      context: ./Eclipseworks.API
+      context: .
       dockerfile: Dockerfile
     container_name: eclipseworks-api
     ports:

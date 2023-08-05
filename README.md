@@ -82,3 +82,7 @@ Pensando em distribuição o docker poderia ser usado e arquivos como docker-com
 
 
 
+passos para logar no postgres:
+
+ docker exec -it postgres_db bash
+ psql -U postgres -d offer_db 
